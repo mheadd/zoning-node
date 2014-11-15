@@ -1,4 +1,4 @@
-# A Node.js module for the zoning.io API (work in progress).
+# A Node.js module for the zoning.io API.
 
 ## Usage
 
