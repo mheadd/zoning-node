@@ -1,0 +1,12 @@
+{
+  "name": "zoning-node",
+  "version": "0.0.1",
+  "description": "A Node.js module for the zoning.io API (http://zoning.io/docs)",
+  "main": "index.js",
+  "dependencies": {
+    "request": "latest",
+    "querystring": "latest"
+  },
+  "author": "Mark Headd <mheadd@accela.com> (http://civic.io/)",
+  "license": "BSD"
+}
