@@ -1,8 +1,8 @@
 var zoning = require('../lib/zoning')
 
-// Get a list of jurisdictions.
+// Get a list of land use conditions.
 var z = new Zoning();
-z.jurisdictions({id: 78}, function(response, error){
+z.landUseConditions({'use[slug]': 'bakery'}, function(response, error) {
 	if(error) {
 		console.log(error);
 	}

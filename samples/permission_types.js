@@ -1,8 +1,8 @@
 var zoning = require('../lib/zoning')
 
-// Get a list of jurisdictions.
+// Get the permission types that have been defined in a jurisdiction.
 var z = new Zoning();
-z.jurisdictions({id: 78}, function(response, error){
+z .permissionTypes({}, function(response, error) {
 	if(error) {
 		console.log(error);
 	}
